@@ -1,0 +1,29 @@
+# AI-Based Smart Online Examination & Proctoring System
+# Core Framework & Web Server
+Flask>=2.0.0
+Flask-WTF>=1.0.0
+Flask-Mail>=0.9.1
+Flask-Session>=0.5.0
+Flask-Cors>=3.0.10
+WTForms>=3.0.0
+WTForms-Components>=0.10.5
+Werkzeug>=2.0.0
+
+# Data Processing & Utilities
+numpy>=1.20.0
+pandas>=1.3.0
+Pillow>=8.0.0
+coolname>=1.1.0
+stripe>=2.60.0
+six>=1.15.0
+python-docx>=0.8.10
+nltk>=3.6.0
+matplotlib>=3.3.0
+
+# Computer Vision & Proctoring
+opencv-python>=4.5.0
+
+# Optional Database & Advanced ML (gracefully supported)
+# Flask-MySQLdb>=1.0.1 (optional: uses SQLite fallback automatically)
+# tensorflow>=2.4.0 (optional: for darknet YOLOv3 weights)
+# deepface>=0.0.75 (optional: for deep neural face verification)
